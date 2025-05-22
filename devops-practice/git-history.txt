@@ -1,0 +1,88 @@
+  400  git --version 
+  402  git config --global --list
+  403  git config --local --list
+  404  git config --global user.name "M@hdy"
+  405  git config --global user.email "mahdy.shayesteh@gmail.com"
+  406  git config --global --list 
+  407  git config --list 
+  417  git init
+  418  echo "Hello git!" > hello.txt
+  420  git add hello.txt 
+  421  git commit -m  "Initial commit with hello.txt"
+  422  git show 
+  423  diff --git a/hello.txt b/hello.txt
+  426  git show 
+  435  git commit -m "second line is added."
+  441  git add hello.txt 
+  442  git commit -m "another change in txt file"
+  443  git show 
+  444  git rm hello.txt 
+  445  git commit -m "remove hello.txt"
+  446  git show
+  447  git branch 
+  448  git branch dev
+  449  git branch 
+  450  git checkout dev
+  451  git branch 
+  455  git branch 
+  456  git show
+  457  git add feature.txt 
+  458  git commit -m "add feature.txt file to dev branch"
+  459  git show 
+  460  git checkout main
+  461  git branch 
+  462  git checkout master 
+  463  git branch 
+  464  git merge dev
+  465  git show 
+  466  git branch 
+  467  git branch -b release
+  468  git checkout -b release 
+  469  git branch 
+  472  git add releaseBranch.txt 
+  473  git commit -m "add release txt file"
+  474  git show
+  475  git branch 
+  476  git checkout master 
+  477  git show 
+  478  git rebase release 
+  479  git show 
+  480  git remote add origin https://github.com/MahdyShayesteh/DevopsLinuxTest
+  481  git push -u origin main
+  482  git push -u origin master
+  483  git remote set-url origin git@github.com:MahdyShayesteh/DevopsLinuxTest.git
+  484  git remote -v
+  487  ssh -T git@github.com
+  488  git push -u origin main
+  489  git remote add origin https://github.com/MahdyShayesteh/DevopsLinuxTest.git
+  490  git push -u origin master 
+  491  git pull origin main 
+  492  git branch 
+  493  git --version
+  494  git status
+  495  git log
+  497  git branch 
+  498  git branch -M main
+  499  git branch 
+  500  git push -u origin main 
+  501  git push
+  502  git branch 
+  503  git push origin main
+  504  git branch 
+  505  git push -u origin master
+  506  git branch 
+  507  git log
+  514  git repo clone MahdyShayesteh/devops-practice
+  517  git clone https://github.com/MahdyShayesteh/devops-practice.git
+  545  git clone https://github.com/mahdyShayesteh/devops-practice.git
+  558  git branch 
+  559  git branch -a 
+  560  git checkout dev
+  561  git branch 
+  562  git checkout feature1 
+  563  git branch 
+  567  git lof 
+  568  git log
+  578  git log > logs.txt
+  585  history | grep git
+  586  history | grep git > git-history.txt
