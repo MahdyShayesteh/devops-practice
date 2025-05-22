@@ -1,0 +1,584 @@
+    1  ls
+    2  ls -i
+    3  pwd
+    4  clear
+    5  pwd
+    6  ls
+    7  ls i
+    8  ls -i
+    9  cat ntuser.dat.LOG2 
+   10  pwd 
+   11  ls
+   12  cd Downloads/
+   13  ls
+   14  ls -i
+   15  cat Symphony.vssettings 
+   16  cat Symphony.vssettings | grep item
+   17  cat Symphony.vssettings | grep Item
+   18  cat Symphony.vssettings | grep BoldFont
+   19  cat Symphony.vssettings
+   20  ls 
+   21  clear
+   22  ls
+   23  cd..
+   24  cd ..
+   25  ls
+   26  cd Public/
+   27  ls
+   28  cd Desktop/
+   29  ls
+   30  cat desktop.ini 
+   31  cd /mnt/d/
+   32  ls
+   33  cd temp/
+   34  ls
+   35  ls -i
+   36  cd /mnt/d/
+   37  ls
+   38  cd arshad/
+   39  ls
+   40  cat refrence.tex 
+   41  clea
+   42  clear
+   43  ls -i
+   44  cat Internal\ and\ external\ factor.docx 
+   45  ls -i
+   46  cat iran\ doc\ comfirmation.pdf 
+   47  61;4;6;7;14;21;22;23;24;28;32;42c61;4;6;7;14;21;22;23;24;28;32;42c61;4;6;7;14;21;22;23;24;28;32;42c61;4;6;7;14;21;22;23;24;28;32;42c61;4;6;7;14;21;22;23;24;28;32;42c61;4;6;7;14;21;22;23;24;28;32;42c61;4;6;7;14;21;22;23;24;28;32;42c61;4;6;7;14;21;22;23;24;28;32;42c61;4;6;7;14;21;22;23;24;28;32;42c61;4;6;7;14;21;22;23;24;28;32;42c61;4;6;7;14;21;22;23;24;28;32;42c61;4;6;7;14;21;22;23;24;28;32;42c61;4;6;7;14;21;22;23;24;28;32;42c61;4;6;7;14;21;22;23;24;28;32;42c
+   48  ls -i
+   49  ls *.txt
+   50  ls -i  *.txt
+   51  cat My\ refrence.txt 
+   52  cat My\ refrence.txt | grep stock
+   53  cat My\ refrence.txt | grep stock > stocks.txt
+   54  cat stocks.txt 
+   55  rm -r stocks.txt 
+   56  cat stocks.txt 
+   57  pwd
+   58  cd ~
+   59  pwd
+   60  ls
+   61  cd /mnt/d/arshad/
+   62  ls
+   63  cd Thesis/
+   64  ls
+   65  ls -i
+   66  cat BlockChain.docx 
+   67  ls -i
+   68  cat En\ Abstraction.docx 
+   69  ls -i
+   70  cat Bitcoin.docx 
+   71  ls -i
+   72  cd ..
+   73  ls ..
+   74  ls -i ..
+   75  ls -i ../desktop/
+   76  cd ../desktop/resume/
+   77  ls -i 
+   78  cat CV\ request\ text.txt 
+   79  cd ~
+   80  cat CV\ request\ text.txt 
+   81  cd /mnt/d/
+   82  ls -i
+   83  ls -i hac/
+   84  ls -l
+   85  p
+   86  w
+   87  pwd
+   88  ls -i
+   89  ls -l
+   90  cat اطلاعات\ قبض\ های\ منزل.txt 
+   91  mv  اطلاعات\ قبض\ های\ منزل.txt  GhabzInformation.txt
+   92  ls -l
+   93  ls forex/
+   94  rename 'forex/' *.txt
+   95  echo 'hello linux! this is a test' > test.txt
+   96  cat test.txt 
+   97  cat test.txt | grep linux
+   98  cat test.txt | grep linux > found.txt
+   99  cat found.txt 
+  100  rm found.txt 
+  101  rm test.txt 
+  102  ls 
+  103  find -name found.txt
+  104  ls reacher/
+  105  find /mnt/d/ -name '*ack*'
+  106  find /mnt/d/ -name '*Jack*'
+  107  find  /mnt/d/ -iname '*Jack*'
+  108  rm reacher/Jack.Reacher.S02E01.1080p.WEB-DL.Farsi.Sub.Film2Media.mkv -i
+  109  ls reacher/
+  110  rm -v reacher/Jack.Reacher.S02E04.1080p.WEB-DL.Farsi.Sub.Film2Media.mkv 
+  111  rmdir reacher
+  112  rmdir reacher/
+  113  rmdir -f reacher
+  114  rmdir --help
+  115  rmdir -r reacher
+  116  rm -r reacher/
+  117  ls re*
+  118  ls 
+  119  ls re*
+  120  ls -p re* | grep -v /
+  121  ls -f re*
+  122  pwd
+  123  ls -l
+  124  ls 
+  125  ls -a
+  126  ls -s
+  127  ls -l
+  128  ls -l -a
+  129  ls
+  130  ls -i
+  131  \ls  # Bypasses aliases
+  132  \ls  
+  133  ls | sort
+  134  ls 
+  135  ls | sort
+  136  ls 
+  137  clear
+  138  ls 
+  139  cp mp3/ mp32
+  140  cp GhabzInformation.txt GhabzInformation2.txt 
+  141  ls 
+  142  rm -f GhabzInformation2.txt 
+  143  ls 
+  144  cp GhabzInformation.txt mp3/
+  145  ls mp3/
+  146  rm -f mp3/GhabzInformation.txt 
+  147  cp GhabzInformation.txt mp3/
+  148  find /mnt/d/mp3/ -name Ghabz*
+  149  rm -v  mp3/GhabzInformation.txt 
+  150  find /mnt/d/*.txt > listOfTxtFiles.txt
+  151  cat listOfTxtFiles.txt 
+  152  cat GhabzInformation.txt 
+  153  wc -l GhabzInformation.txt 
+  154  wc -w GhabzInformation.txt 
+  155  find /etc/ -name '*.conf' 2>/dev/null | head -n 5
+  156  find /etc/ -name '*.conf' 2>/dev/null
+  157  find /etc/ -name '*.conf' 2>/dev/null | head -n 5
+  158  find /etc/ -name '*.conf' 2>/dev/null > configFiles.txt
+  159  curl -i http://google.com
+  160  curl -i https://www.soft98.ir
+  161  curl -i https://soft98.ir/
+  162  curl -i https://soft98.ir/ | wc -l 
+  163  curl -i https://soft98.ir/ > softTest.txt | wc -l softTest.txt
+  164  cd /mnt/d/
+  165  ls
+  166  wc -l softTest.txt 
+  167  cat softTest.txt 
+  168  wc -l softTest.txt 
+  169  wc -w softTest.txt 
+  170  chmod 444 softTest.txt 
+  171  ls -l softTest.txt 
+  172  rm softTest.txt 
+  173  ls
+  174  curl -i https://soft98.ir/ > softTest.txt
+  175  ls
+  176  ls -l test.txt
+  177  ls -l softTest.txt
+  178  chmod 444 softTest.txt 
+  179  find /etc -name "*.conf" 2>/dev/null | wc -l
+  180  vim softTest.txt 
+  181  ls 
+  182  cd wo
+  183  cd work/
+  184  ls 
+  185  cd ..
+  186  find -i work/ -name '*.doc'
+  187  find  work/ -name '*.doc'
+  188  find  /mnt/d/work/ -name '*.doc'
+  189  find  /mnt/d/ -name '*.doc'
+  190  find  /mnt/d/ -name '*.docx'
+  191  ls resume/
+  192  cat resume/Implementing\ a\ few\ stock\ trading\ strategies.docx 
+  193  ls resume/
+  194  cat resume/Cover\ Letter\ \ for\ DeepL.pdf 
+  195  61;4;6;7;14;21;22;23;24;28;32;42c
+  196  ls 
+  197  ls resume/
+  198  sudo apt update && sudo apt install poppler-utils
+  199  ls 
+  200  ls resume/
+  201  pdftotext resume/SeyedHadiLoghmanResume.pdf 
+  202  pdftotext resume/SeyedHadiLoghmanResume.pdf - | less
+  203  sudo apt update && sudo apt install ffmpeg
+  204  ls 
+  205  cd motivation/
+  206  ls
+  207  ffmpeg MOTIVATION\ \ Idris\ Elba\ Work\ hard\ sleep\ less_1080p.mp4 
+  208  mpv --vo=tct MOTIVATION\ \ Idris\ Elba\ Work\ hard\ sleep\ less_1080p.mp4 
+  209  sudo apt update && sudo apt install mpv
+  210  mpv --vo=tct MOTIVATION\ \ Idris\ Elba\ Work\ hard\ sleep\ less_1080p.mp4 
+  211  ls
+  212  mpv WORK\ HARDER\ THAN\ EVERYONE\ \ Motivational\ Speech_1080p.mp4 
+  213  ls 
+  214  mpv Lifestyle\ Trader\ -\ Every\ Forex\ Trader\ NEEDS\ To\ See\ This\!-904Q4xs_kEI-720p-1639211950566.mp4 
+  215  sudo apt install mvc
+  216  sudo apt install vlc
+  217  ls 
+  218  vlc Lifestyle\ Trader\ -\ Every\ Forex\ Trader\ NEEDS\ To\ See\ This\!-904Q4xs_kEI-720p-1639211950566.mp4 
+  219  cd ..
+  220  ls
+  221  rm configFiles.txt  softTest.txt 
+  222  ld
+  223  ls
+  224  ls temp/
+  225  ls tasavor/
+  226  sudo userdel sara
+  227  sudo userdel -r sara
+  228  sudo pkill -u sara
+  229  sudo userdel -r sara
+  230  sudo kill -9 -u sara
+  231  sudo pkill -9 -u sara  
+  232  pwd
+  233  ps -ef
+  234  top
+  235  df-h
+  236  df -h
+  237  df 
+  238  df -h
+  239  du -sh
+  240  df -h
+  241  free -m
+  242  uptime
+  243  netstat
+  244  netstate
+  245  netstat
+  246  curl http://www.google.com
+  247  ping 8.8.8.8 
+  248  traceroute
+  249  sudo apt install traceroute
+  250  traceroute
+  251  clear
+  252  traceroute
+  253  زمثشق
+  254  clear
+  255  traceroute google.com
+  256  netstat -tuln
+  257  sudo apt install net-tools
+  258  netstat -tuln
+  259  netstat -tuln | grep 80
+  260  netstat -tuln
+  261  ss -tuln
+  262  netstat -an
+  263  echo "hello world hello linux" | sed 's/hello/hi/g'
+  264  echo "hello world hello linux" | sed 's/hello/hi'
+  265  echo "hello world hello linux" | sed 's/hello/hi/'
+  266  cat > people.txt << eof
+  267  Ali 25 Tehran
+  268  Sara 30 Mashhad 
+  269  Reza 28 Shiraz
+  270  Ali 25 Tehran
+  271  Mina 22 Isfahan
+  272  Sara 30 Mashhad
+  273  eof
+  274  cat people.txt 
+  275  awk '{print $s1}' people.txt 
+  276  awk '{print $1}' people.txt
+  277  awk '{print $2}' people.txt
+  278  awk '{print $3}' people.txt
+  279  awk '{print $0}' people.txt 
+  280  awk '{print $0}' people.txt | sort | uniq -c
+  281  vim people.txt 
+  282  cat people.txt 
+  283  vim people.txt 
+  284  awk '{print $0}' people.txt | sort | uniq -c
+  285  sed 's/Mashhad/Mashhad-razavi/g' people.txt
+  286  wc -l people.txt 
+  287  wc -c people.txt 
+  288  awk '{print $1,$3}' people.txt 
+  289  cat > analyze.sh << 'EOF'
+  290  #!/bin/bash
+  291  echo "✅ تعداد کل خط‌ها:"
+  292  wc -l people.txt
+  293  echo ""
+  294  echo "✅ فقط اسامی:"
+  295  awk '{print $1}' people.txt
+  296  echo ""
+  297  echo "✅ تعداد تکرار هر اسم:"
+  298  awk '{print $1}' people.txt | sort | uniq -c
+  299  echo ""
+  300  echo "✅ نام و شهر:"
+  301  awk '{print $1, $3}' people.txt
+  302  echo ""
+  303  echo "✅ جایگزینی Mashhad → Mashhad-Razavi:"
+  304  sed 's/Mashhad/Mashhad-Razavi/g' people.txt
+  305  EOF
+  306  chmod +x analyze.sh
+  307  ./analyze.sh
+  308  ./analyze.sh 
+  309  clear
+  310  ./analyze.sh 
+  311  rm analyze.sh 
+  312  ls
+  313  cat people.txt 
+  314  rm people.txt 
+  315  ls
+  316  cd /mnt/d/
+  317  ks
+  318  ls
+  319  cd ~
+  320  ls
+  321  touch people.txt
+  322  vim people.txt 
+  323  ls
+  324  vim people.txt 
+  325  ls
+  326  cat newFile.txt 
+  327  cat people.txt 
+  328  vim newFile.txt 
+  329  cat newFile.txt 
+  330  vim people.txt 
+  331  cat
+  332  cat people.txt 
+  333  cat newFile.txt 
+  334  ls
+  335  tar -vcf archive.tar newFile.txt people.txt 
+  336  ls
+  337  cd /mnt/d
+  338  cd desktop/
+  339  ls
+  340  ls -l
+  341  ls -l -h
+  342  mv رمزگشایی+ذهن+بیل+گیتس+-+قسمت+اول-+سیستم+فاضلاب+نوین-2020-12-12+22-00-00.mp4  BillsMind_Part1.mp4
+  343  ls
+  344  mv رمزگشایی+ذهن+بیل+گیتس+-+قسمت+سوم+-+نسل+جدید+نیروگاه+های+اتمی-2020-12-14+22-01-00.mp4  BillsMind_Part2.mp4
+  345  ls
+  346  tar -cvf newarchive.tar BillsMind_Part1.mp4  BillsMind_Part2.mp4 
+  347  ls -l newarchive.tar 
+  348  ls -l -h newarchive.tar 
+  349  ls
+  350  ls -l -h newarchive.tar 
+  351  tar xvf newarchive.tar /tmp/
+  352  mkdir tmp
+  353  tar xvf newarchive.tar /tmp/
+  354  tar xvf newarchive.tar -c /tmp/
+  355  tar -xvf newarchive.tar -C /tmp/
+  356  ls 
+  357  ls /tmp/
+  358  ls
+  359  mv BillsMind_Part2.mp4 BillsMind_Part3.mp4
+  360  tar -xvf newarchive.tar
+  361  ls
+  362  rm newarchive.tar 
+  363  ls
+  364  ls -h
+  365  ls -l -h
+  366  mkdir BillsMind
+  367  ls
+  368  mv BillsMind_Part* /BillsMind
+  369  mv BillsMind_Part* BillsMind/
+  370  ls
+  371  tar -cvf Archive.tar.gz BillsMind/*
+  372  tar -cvf Archive2.tar BillsMind/*
+  373  rm Archive*
+  374  tar -cjvf Archive.tar BillsMind/*
+  375  tar -cjvf Archive.tar.bz2 BillsMind/*
+  376  tar -cjvf archive_name.tar.bz2 BillsMind/
+  377  who
+  378  who -u
+  379  who -h
+  380  who -H
+  381  passwd mahdy 
+  382  add user sara 
+  383  sudo useradd sara
+  384  who
+  385  sudo passwd sara
+  386  su - sara
+  387  sudo userdel -r sara 
+  388  sudo userdel sara 
+  389  whi
+  390  who
+  391  history
+  392  history -p
+  393  history -l
+  394  history
+  395  clear 
+  396  curl -o http://www.google.com
+  397  curl -o google.com
+  398  curl -O http://google.com
+  399  curl http://google.com
+  400  git --version 
+  401  clear
+  402  git config --global --list
+  403  git config --local --list
+  404  git config --global user.name "M@hdy"
+  405  git config --global user.email "mahdy.shayesteh@gmail.com"
+  406  git config --global --list 
+  407  git config --list 
+  408  clear
+  409  cd /mnt/d/
+  410  li
+  411  ls 
+  412  cd temp/
+  413  ls
+  414  ls -l
+  415  mkdir TestLinuxGit
+  416  cd TestLinuxGit/
+  417  git init
+  418  echo "Hello git!" > hello.txt
+  419  ls
+  420  git add hello.txt 
+  421  git commit -m  "Initial commit with hello.txt"
+  422  git show 
+  423  diff --git a/hello.txt b/hello.txt
+  424  clearr
+  425  clear
+  426  git show 
+  427  ls 
+  428  echo "New line added." > hello.txt
+  429  ls
+  430  cat hello.txt 
+  431  echo "New line added." >> hello.txt
+  432  cat hello.txt 
+  433  vim hello.txt 
+  434  cat hello.txt 
+  435  git commit -m "second line is added."
+  436  cat hello.txt 
+  437  vi hello.txt 
+  438  cat hello.txt 
+  439  echo "another change in txt file" >> hello.txt 
+  440  cat hello.txt 
+  441  git add hello.txt 
+  442  git commit -m "another change in txt file"
+  443  git show 
+  444  git rm hello.txt 
+  445  git commit -m "remove hello.txt"
+  446  git show
+  447  git branch 
+  448  git branch dev
+  449  git branch 
+  450  git checkout dev
+  451  git branch 
+  452  echo "this is a dev branch" > feature.txt
+  453  ks
+  454  ls
+  455  git branch 
+  456  git show
+  457  git add feature.txt 
+  458  git commit -m "add feature.txt file to dev branch"
+  459  git show 
+  460  git checkout main
+  461  git branch 
+  462  git checkout master 
+  463  git branch 
+  464  git merge dev
+  465  git show 
+  466  git branch 
+  467  git branch -b release
+  468  git checkout -b release 
+  469  git branch 
+  470  echo "create new branch for release" > releaseBranch.txt\
+  471  ls
+  472  git add releaseBranch.txt 
+  473  git commit -m "add release txt file"
+  474  git show
+  475  git branch 
+  476  git checkout master 
+  477  git show 
+  478  git rebase release 
+  479  git show 
+  480  git remote add origin https://github.com/MahdyShayesteh/DevopsLinuxTest
+  481  git push -u origin main
+  482  git push -u origin master
+  483  git remote set-url origin git@github.com:MahdyShayesteh/DevopsLinuxTest.git
+  484  git remote -v
+  485  ssh-keygen -t ed25519 -C "mahdy.shayesteh@gmail.com"
+  486  cat ~/.ssh/id_ed25519.pub   # Copy this output
+  487  ssh -T git@github.com
+  488  git push -u origin main
+  489  git remote add origin https://github.com/MahdyShayesteh/DevopsLinuxTest.git
+  490  git push -u origin master 
+  491  git pull origin main 
+  492  git branch 
+  493  git --version
+  494  git status
+  495  git log
+  496  ls -l
+  497  git branch 
+  498  git branch -M main
+  499  git branch 
+  500  git push -u origin main 
+  501  git push
+  502  git branch 
+  503  git push origin main
+  504  git branch 
+  505  git push -u origin master
+  506  git branch 
+  507  git log
+  508  pwd 
+  509  ls -l ..
+  510  cd ..
+  511  mkdir devops
+  512  cd devops/
+  513  ls 
+  514  git repo clone MahdyShayesteh/devops-practice
+  515  gh repo clone MahdyShayesteh/devops-practice
+  516  clear
+  517  git clone https://github.com/MahdyShayesteh/devops-practice.git
+  518  ls 
+  519  cd devops-practice/
+  520  ls
+  521  cd devops-practice/
+  522  ls
+  523  cd ../,,
+  524  cd ../..
+  525  ls
+  526  cd devops-practice/
+  527  mv devops-practice/ ../
+  528  cd ..
+  529  ls
+  530  mv devops-practice/ devops-practice2/
+  531  ls
+  532  cd devops-practice2/
+  533  mv devops-practice/ ../
+  534  ls
+  535  cd ..
+  536  ls
+  537  cd devops-practice
+  538  ls
+  539  cd ..
+  540  rm  devops-practice2/
+  541  rmdir devops-practice2/
+  542  clear 
+  543  ls 
+  544  cd ..
+  545  git clone https://github.com/mahdyShayesteh/devops-practice.git
+  546  ls -l
+  547  cd devops-practice/
+  548  ls
+  549  cd ..
+  550  rmdir devops
+  551  ls -l
+  552  mv devops-practice/ devops
+  553  ls -l
+  554  cd devops/
+  555  ls -l
+  556  cd devops-practice/
+  557  ls
+  558  git branch 
+  559  git branch -a 
+  560  git checkout dev
+  561  git branch 
+  562  git checkout feature1 
+  563  git branch 
+  564  ls 
+  565  cat document.txt 
+  566  log
+  567  git lof 
+  568  git log
+  569  ls 
+  570  vi document.txt 
+  571  ls 
+  572  cat document.txt 
+  573  clea
+  574  clear
+  575  ;s 
+  576  l s
+  577  ls 
+  578  git log > logs.txt
+  579  ls 
+  580  cat logs.txt 
+  581  ls
+  582  history 
+  583  ls 
+  584  history > history.txt
